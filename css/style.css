@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/*utility classes*/
+.yellow{
+    color: rgb(196, 171, 29);
+}
+a{
+    text-decoration: none;
+}
+
+
+/*start navbar styling*/ 
+navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: rgb(68, 63, 63);
+}
+navbar a{
+    color: white;
+    padding-left: 50px;
+}
+navbar ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+/*End navbar styling*/ 
+
+/*start showcase styling*/  
+.showcase .container{
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    padding-top: 130px;
+    line-height: 60px;
+    color: white;
+}
+.showcase .container .intro{
+    border: solid 1px black;
+    background-color: rgb(70, 68, 68);
+    border: none;
+    opacity: 0.8;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.showcase .container a{
+    border: solid 1px black;
+    border: none;
+    background-color: rgb(51, 50, 50);
+    padding: 12px;
+}
+/*end showcase styling*/ 
+
+/*start about styling*/ 
+.about .container {
+    text-align: center;
+    height: 200px;
+    padding-top: 30px;
+    line-height: 30px;
+    background-color: rgb(241, 239, 234);
+}
+.about .container hr{
+    width: 3%;
+    margin: 0 auto;
+    border: solid 2px yellow;
+    background-color: yellow;
+    
+}
+.about .container h3{
+    width: 80%;
+    margin: 0 auto;
+}
+/*end about styling*/
+
+/*start benefits styling*/
+.benefits .container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+    height: 280px;
+    line-height: 30px;
+}
+.benefits .container .card h3{
+    width: 40%;
+    margin: 0 auto;
+}
+.benefits .container .card :hover{
+    background-color: gray;
+}
+/*end benefits styling*/
+
+/*start contact styling*/
+.contact{
+    height: 300px;
+    line-height: 40px;
+    margin: 0 30px;
+}
+
+input{
+    width: 80%;
+}
+button{
+    padding: 10px;
+    background-color:rgb(51, 50, 50);
+    border: none;
+    font-weight: bold;
+}
+/*end contact styling*/
+
+/*start footer styling*/
+footer{
+    height: 40px;
+    background-color:rgb(228, 226, 220) ;
+    text-align: center;
+    padding-top: 20px;
+}
